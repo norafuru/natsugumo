@@ -1,19 +1,22 @@
-name: 機能追加・改善
+name: Feature Request
 description: 新しい機能の要望や、既存の機能の改善についての提案
-title: "[機能提案] "
+title: "[Feature Request] "
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
         複数の要望・提案がある場合は、ひとつずつ別々のissueとして登録してください。
-        なお、対応や回答をお約束するものではありません。
   - type: textarea
     id: proposal
     attributes:
-      label: proposal
-      description: 内容
-      placeholder: できるだけ詳しく記載してください。
-      value: 提案内容
+      label: 内容
+      description: 新しい機能の要望や、既存の機能の改善についての提案をできるだけ詳しくお書きください。
+      placeholder: 内容をできるだけ詳しく記載してください。
+      value: 内容を
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ※ 対応や回答をお約束するものではありません。
