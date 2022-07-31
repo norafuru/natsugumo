@@ -5,13 +5,15 @@ labels: []
 body:
   - type: markdown
     attributes:
-      value: 複数の要望・提案がある場合は、ひとつずつ別々のissueとして登録してください。\nなお、対応や回答をお約束するものではありません。
+      value: |
+        複数の要望・提案がある場合は、ひとつずつ別々のissueとして登録してください。
+        なお、対応や回答をお約束するものではありません。
   - type: textarea
     id: proposal
     attributes:
       label: proposal
       description: 内容
       placeholder: できるだけ詳しく記載してください。
-      value: ""
+      value: 提案内容
     validations:
       required: true
