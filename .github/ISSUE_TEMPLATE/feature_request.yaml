@@ -1,0 +1,21 @@
+name: 機能追加・改善
+description: 新しい機能の要望や、既存の機能の改善についての提案
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        複数の要望・提案がある場合は、ひとつずつ別々のissueとして登録してください。
+        なお、対応や回答をお約束するものではありません。
+  - type: textarea
+    id: proposal
+    attributes:
+      label: proposal
+      description: 内容
+      placeholder: できるだけ詳しく記載してください。
+      value: ""
+    validations:
+      required: true
