@@ -1,6 +1,6 @@
 name: Feature Request
 description: 新しい機能の要望や、既存の機能の改善についての提案
-title: "[Feature Request] "
+title: "[要望] "
 labels: []
 body:
   - type: markdown
@@ -10,13 +10,13 @@ body:
   - type: textarea
     id: proposal
     attributes:
-      label: 内容
+      label: 要望・提案の内容
       description: 新しい機能の要望や、既存の機能の改善についての提案をできるだけ詳しくお書きください。
       placeholder: 内容をできるだけ詳しく記載してください。
-      value: 内容を
+      value: できるだけ詳しく記載してください。
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
-        ※ 対応や回答をお約束するものではありません。
+        対応や回答をお約束するものではありませんのでご注意ください。
