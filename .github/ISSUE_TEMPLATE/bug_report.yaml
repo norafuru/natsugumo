@@ -1,0 +1,75 @@
+name: Bug Report
+description: 不具合の報告
+title: "[報告] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        以下に入力していただいたご報告は公開されます。
+        公開されたくない場合は、このフォームに投稿するのではなく、管理者の方から運営者へ直接メールでお知らせください。
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: 不具合が生じた句会のURLを教えてください。
+      placeholder: https://ntgm.nolimbre.com/.../
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: 俳号（アカウント名）
+      description: 上記句会におけるあなたの俳号（アカウント名）を教えてください。
+      placeholder: 俳号
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 不具合の内容
+      description: また、直前におこなっていた操作など
+      placeholder: Tell us what you see!
+      value: |
+        # 不具合の内容
+        
+        # 直前におこなっていた操作の手順
+        
+        # エラーが表示されている場合、その内容
+
+        # 不具合が生じる対象（作品の番号やアカウント名など）
+
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: OS
+      multiple: true
+      description: 不具合が発生したOSを教えてください。
+      options:
+        - Windows
+        - Mac OS X
+        - iOS
+        - Android
+        - その他（文中に記載してください）
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 使っているブラウザ
+      multiple: true
+      description: 不具合が発生したブラウザを教えてください。
+      options:
+        - Google Chrome
+        - Microsoft Edge
+        - Safari
+        - Firefox
+        - その他（文中に記載してください）
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        対応や返答をお約束するものではありません。
