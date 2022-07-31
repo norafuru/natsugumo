@@ -1,7 +1,7 @@
 name: 機能追加・改善
 description: 新しい機能の要望や、既存の機能の改善についての提案
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: ""
+labels: []
 assignees:
   - octocat
 body:
