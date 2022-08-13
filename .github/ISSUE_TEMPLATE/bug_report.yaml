@@ -19,8 +19,8 @@ body:
   - type: input
     id: name
     attributes:
-      label: 俳号（アカウント名）
-      description: 上記句会におけるあなたの俳号（アカウント名）を教えてください。
+      label: アカウント名
+      description: 上記句会におけるあなたのアカウント名（俳号）を教えてください。
       placeholder: 俳号
     validations:
       required: true
@@ -31,13 +31,13 @@ body:
       description: また、直前におこなっていた操作など
       placeholder: Tell us what you see!
       value: |
-        # 不具合の内容
+        #### 不具合の詳細
         
-        # 直前におこなっていた操作の手順
+        #### 直前におこなっていた操作の手順
         
-        # エラーが表示されている場合、その内容
+        #### エラーが表示されている場合、その内容
 
-        # 不具合が生じる対象（作品の番号やアカウント名など）
+        #### 不具合が生じる対象（作品の番号やアカウント名など）
 
     validations:
       required: true
